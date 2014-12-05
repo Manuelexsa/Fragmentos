@@ -1,0 +1,65 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:weightSum="1">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ivInmueble"
+    android:layout_alignTop="@+id/linearLayout"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignBottom="@+id/linearLayout"
+    android:background="@drawable/ic_launcher"
+    android:layout_toLeftOf="@+id/linearLayout"
+    android:layout_toStartOf="@+id/linearLayout" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="93dp"
+    android:id="@+id/linearLayout"
+    android:layout_below="@+id/tvLocalidad"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:gravity="left|center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTipo"
+        android:textColor="#ff000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCalle"
+        android:textColor="#ff000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPrecio"
+        android:textColor="#ff000000"
+        android:textSize="20sp" />
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvLocalidad"
+    android:text="aaaaaaaaaaaaaaaaaaa"
+    android:layout_alignParentTop="true"
+    android:textSize="25sp"
+    android:textColor="#ff000000"
+    android:layout_toRightOf="@+id/ivInmueble"
+    android:layout_toEndOf="@+id/ivInmueble"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

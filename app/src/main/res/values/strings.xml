@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PMDMInmobiliaria</string>
+    <string name="dir">Dirección</string>
+    <string name="localidad">Localidad</string>
+    <string name="tipo">Tipo</string>
+    <string name="precio">Precio</string>
+    <string name="modificar">Modificar</string>
+    <string name="borrar">Borrar</string>
+    <string name="add">Añadir</string>
+    <string name="title_activity_anadir">Anadir</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_fotos">Fotos</string>
+    <string name="foto">Añadir foto</string>
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="title_activity_gfotos">GFotos</string>
+    <string name="title_activity_ganadir">GAnadir</string>
+
+</resources>
